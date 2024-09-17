@@ -1,0 +1,110 @@
+body
+{
+	background-color: #a7c7e7;
+}
+
+nav
+{
+	margin: 200px auto 0 auto;
+	width: 60%;
+	text-align: left;
+}
+
+nav a
+{
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+nav a:first-child {
+	margin-left: 0; /* Remove the left margin from the first link */
+}
+nav a:hover
+{
+	text-decoration: underline;
+}
+
+h1
+{
+	width: 60%; /* Adjust the width as necessary */
+	margin: 0 auto 0 auto;
+	text-align: left; /* Keeps the text aligned to the left */
+	color: white;
+	font-family: 'Playfair Display', serif;
+}
+
+p
+{
+	width: 60%; /* Adjust the width as necessary */
+	margin: 0 auto;
+	text-align: left; /* Keeps the text aligned to the left */
+	color: white;
+	font-family: 'Playfair Display', serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.button-container {
+	width: 60%; /* Adjust the width as necessary to match h1 and p */
+	margin: auto; /* Center the container and add spacing */
+}
+
+
+.button
+{
+	width: auto; /* Adjust the width as necessary */
+	display: inline-block; /* Align buttons horizontally */
+	margin: 10px; /* Add spacing between buttons */
+	padding: 12px 32px;
+
+	background-color: transparent;
+
+	border: 1px solid black;
+	border-radius: 12px;
+
+	color: white;
+
+	text-align: center;
+	display:inline-block;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	text-decoration: none;
+
+	transition-duration: 0.4s;
+}
+
+.button:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.button1
+{
+	background-color: #79B0F0;
+}
+
+.button2
+{
+	color: black;
+	background-color: #a7c7e7;
+}
+
+/* 
+font-size :controls the text size
+font-weight:bold   :make the elmenets bold
+text:decoration:none   :to display hyperlinks without an underline
+text-transform:capitalaze   :each word starts with a capital letter
+font-famile  :change the font
+border-width: rpx rpx bpx lpx
+
+#byid
+.byclass
+div p
+*/
