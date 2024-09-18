@@ -112,11 +112,13 @@ a
 	text-align: left;
   display: flex;
   /*align-items: center;*/
+}
 
+.text
+{
 	color: white;
 	font-family: 'Playfair Display', serif;
 }
-
 .image-with-text img {
   margin-left: 20px; /* adjust as needed */
 }
