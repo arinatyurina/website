@@ -111,14 +111,15 @@ a
 	width: 60%;
 	text-align: left;
   display: flex;
-  /*align-items: center;*/
+  align-items: flex-start;
 }
 
 .text
 {
-	color: white;
+	color: white; /* Устанавливаем белый цвет для текста */
 	font-family: 'Playfair Display', serif;
 }
+
 .image-with-text img {
   margin-left: 20px; /* adjust as needed */
 }
