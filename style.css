@@ -96,6 +96,31 @@ a
 	background-color: #a7c7e7;
 }
 
+
+.container
+{
+	display:grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 5px;
+}
+
+.image-with-text {
+	/*margin: 0 auto 0 auto;*/
+	margin: 0 auto;
+	width: 60%;
+	text-align: left;
+  display: flex;
+  /*align-items: center;*/
+
+	color: white;
+	font-family: 'Playfair Display', serif;
+}
+
+.image-with-text img {
+  margin-left: 20px; /* adjust as needed */
+}
+
 /* 
 font-size :controls the text size
 font-weight:bold   :make the elmenets bold
